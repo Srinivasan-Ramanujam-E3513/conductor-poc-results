@@ -1,0 +1,132 @@
+[
+    "0d02f8cb-1791-11ef-9c36-e2dd67a4198f",
+    "0d0590dd-1791-11ef-9c36-e2dd67a4198f"
+]
+
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2024-05-21 22:11:28.219  INFO 56689 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Starting ConductorWorkerDemoApplication using Java 11.0.22 on ASSET-42483 with PID 56689 (/Users/srramanujam/Downloads/work/workplace/conductor/conductorWorkerDemo/build/classes/java/main started by srramanujam in /Users/srramanujam/Downloads/work/workplace/conductor/conductorWorkerDemo)
+2024-05-21 22:11:28.221  INFO 56689 --- [           main] c.s.c.ConductorWorkerDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-21 22:11:28.470  INFO 56689 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8085 (http)
+2024-05-21 22:11:28.472  INFO 56689 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-05-21 22:11:28.472  INFO 56689 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-05-21 22:11:28.512  INFO 56689 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-05-21 22:11:28.512  INFO 56689 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 281 ms
+2024-05-21 22:11:28.539  INFO 56689 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Conductor Server URL: http://localhost:8080/api
+2024-05-21 22:11:28.544  INFO 56689 --- [           main] i.o.c.c.ApiClient                        : Setting token refresh interval to 2700 seconds
+2024-05-21 22:11:28.551  INFO 56689 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Starting workers : [com.sriramrp.conductorWorkerDemo.worker.PushEventIntoKafkaWorkerImpl@6cbe68e9, com.sriramrp.conductorWorkerDemo.worker.UpdateDb1WorkerImpl@6f5e16cf, com.sriramrp.conductorWorkerDemo.worker.UpdateDb2WorkerImpl@750a04ec, com.sriramrp.conductorWorkerDemo.worker.ValidateAccountWorkerImpl@49e2b3c5]
+2024-05-21 22:11:28.552  INFO 56689 --- [pool-3-thread-1] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-21 22:11:28.552  INFO 56689 --- [pool-3-thread-2] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-21 22:11:28.552  INFO 56689 --- [pool-3-thread-3] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-21 22:11:28.552  INFO 56689 --- [pool-3-thread-4] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-21 22:11:28.558  WARN 56689 --- [pool-3-thread-4] c.n.c.s.URLConfigurationSource           : No URLs will be polled as dynamic configuration sources.
+2024-05-21 22:11:28.558  INFO 56689 --- [pool-3-thread-4] c.n.c.s.URLConfigurationSource           : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-21 22:11:28.560  INFO 56689 --- [pool-3-thread-4] c.n.c.DynamicPropertyFactory             : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1b7ac9d8
+2024-05-21 22:11:28.563  INFO 56689 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType UPDATE_DB_2
+2024-05-21 22:11:28.563  INFO 56689 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType PUSH_EVENT_INTO_KAFKA
+2024-05-21 22:11:28.563  INFO 56689 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType UPDATE_DB_1
+2024-05-21 22:11:28.563  INFO 56689 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType PERFORM_VALIDATIONS
+2024-05-21 22:11:28.568  INFO 56689 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'PUSH_EVENT_INTO_KAFKA' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-21 22:11:28.568  INFO 56689 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'UPDATE_DB_2' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-21 22:11:28.568  INFO 56689 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'UPDATE_DB_1' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-21 22:11:28.568  INFO 56689 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'PERFORM_VALIDATIONS' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-21 22:11:28.568  INFO 56689 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Polling errors for taskType UPDATE_DB_2 will be printed at every 100 occurance.
+2024-05-21 22:11:28.568  INFO 56689 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Polling errors for taskType UPDATE_DB_1 will be printed at every 100 occurance.
+2024-05-21 22:11:28.568  INFO 56689 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Polling errors for taskType PUSH_EVENT_INTO_KAFKA will be printed at every 100 occurance.
+2024-05-21 22:11:28.568  INFO 56689 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Polling errors for taskType PERFORM_VALIDATIONS will be printed at every 100 occurance.
+2024-05-21 22:11:28.589 DEBUG 56689 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-21 22:11:28.603 DEBUG 56689 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-05-21 22:11:28.611 DEBUG 56689 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-21 22:11:28.614 DEBUG 56689 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-21 22:11:28.650  INFO 56689 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8085 (http) with context path ''
+2024-05-21 22:11:28.654  INFO 56689 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Started ConductorWorkerDemoApplication in 0.547 seconds (JVM running for 0.914)
+2024-05-21 22:12:03.205  INFO 56689 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f
+2024-05-21 22:12:03.205  INFO 56689 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f
+2024-05-21 22:12:03.217  INFO 56689 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-21 22:12:03.217  INFO 56689 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-21 22:12:04.309  INFO 56689 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 0
+2024-05-21 22:12:04.309  INFO 56689 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 0
+2024-05-21 22:12:06.630  INFO 56689 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 1
+2024-05-21 22:12:06.630  INFO 56689 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 1
+2024-05-21 22:12:08.958  INFO 56689 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 2
+2024-05-21 22:12:08.958  INFO 56689 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 2
+2024-05-21 22:12:11.284  INFO 56689 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 3
+2024-05-21 22:12:11.284  INFO 56689 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 3
+2024-05-21 22:12:13.619  INFO 56689 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 4
+2024-05-21 22:12:13.619  INFO 56689 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 4
+2024-05-21 22:12:15.953  INFO 56689 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 5
+2024-05-21 22:12:15.953  INFO 56689 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 5
+
+Process finished with exit code 143 (interrupted by signal 15:SIGTERM)
+
+
+--------------------------------
+CRASHED
+
+--------------------------------
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2024-05-21 22:12:49.070  INFO 57191 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Starting ConductorWorkerDemoApplication using Java 11.0.22 on ASSET-42483 with PID 57191 (/Users/srramanujam/Downloads/work/workplace/conductor/conductorWorkerDemo/build/classes/java/main started by srramanujam in /Users/srramanujam/Downloads/work/workplace/conductor/conductorWorkerDemo)
+2024-05-21 22:12:49.072  INFO 57191 --- [           main] c.s.c.ConductorWorkerDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-21 22:12:49.312  INFO 57191 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8085 (http)
+2024-05-21 22:12:49.314  INFO 57191 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-05-21 22:12:49.315  INFO 57191 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-05-21 22:12:49.356  INFO 57191 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-05-21 22:12:49.356  INFO 57191 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 274 ms
+2024-05-21 22:12:49.383  INFO 57191 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Conductor Server URL: http://localhost:8080/api
+2024-05-21 22:12:49.387  INFO 57191 --- [           main] i.o.c.c.ApiClient                        : Setting token refresh interval to 2700 seconds
+2024-05-21 22:12:49.395  INFO 57191 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Starting workers : [com.sriramrp.conductorWorkerDemo.worker.PushEventIntoKafkaWorkerImpl@49f3ff41, com.sriramrp.conductorWorkerDemo.worker.UpdateDb1WorkerImpl@6cfbbff7, com.sriramrp.conductorWorkerDemo.worker.UpdateDb2WorkerImpl@30db5536, com.sriramrp.conductorWorkerDemo.worker.ValidateAccountWorkerImpl@45b32dfe]
+2024-05-21 22:12:49.395  INFO 57191 --- [pool-3-thread-1] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-21 22:12:49.396  INFO 57191 --- [pool-3-thread-2] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-21 22:12:49.396  INFO 57191 --- [pool-3-thread-3] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-21 22:12:49.396  INFO 57191 --- [pool-3-thread-4] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-21 22:12:49.401  WARN 57191 --- [pool-3-thread-2] c.n.c.s.URLConfigurationSource           : No URLs will be polled as dynamic configuration sources.
+2024-05-21 22:12:49.402  INFO 57191 --- [pool-3-thread-2] c.n.c.s.URLConfigurationSource           : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-21 22:12:49.403  INFO 57191 --- [pool-3-thread-2] c.n.c.DynamicPropertyFactory             : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@276d72c7
+2024-05-21 22:12:49.406  INFO 57191 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType PERFORM_VALIDATIONS
+2024-05-21 22:12:49.406  INFO 57191 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType UPDATE_DB_1
+2024-05-21 22:12:49.406  INFO 57191 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType UPDATE_DB_2
+2024-05-21 22:12:49.407  INFO 57191 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType PUSH_EVENT_INTO_KAFKA
+2024-05-21 22:12:49.411  INFO 57191 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'UPDATE_DB_2' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-21 22:12:49.411  INFO 57191 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'UPDATE_DB_1' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-21 22:12:49.411  INFO 57191 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'PERFORM_VALIDATIONS' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-21 22:12:49.411  INFO 57191 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'PUSH_EVENT_INTO_KAFKA' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-21 22:12:49.411  INFO 57191 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Polling errors for taskType UPDATE_DB_2 will be printed at every 100 occurance.
+2024-05-21 22:12:49.411  INFO 57191 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Polling errors for taskType UPDATE_DB_1 will be printed at every 100 occurance.
+2024-05-21 22:12:49.411  INFO 57191 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Polling errors for taskType PERFORM_VALIDATIONS will be printed at every 100 occurance.
+2024-05-21 22:12:49.411  INFO 57191 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Polling errors for taskType PUSH_EVENT_INTO_KAFKA will be printed at every 100 occurance.
+2024-05-21 22:12:49.431 DEBUG 57191 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-21 22:12:49.446 DEBUG 57191 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-05-21 22:12:49.454 DEBUG 57191 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-21 22:12:49.457 DEBUG 57191 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-21 22:12:49.495  INFO 57191 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8085 (http) with context path ''
+2024-05-21 22:12:49.499  INFO 57191 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Started ConductorWorkerDemoApplication in 0.553 seconds (JVM running for 0.933)
+2024-05-21 22:12:49.611  INFO 57191 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 6
+2024-05-21 22:12:49.611  INFO 57191 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 6
+2024-05-21 22:12:51.942  INFO 57191 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 7
+2024-05-21 22:12:51.943  INFO 57191 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 7
+2024-05-21 22:12:54.277  INFO 57191 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 8
+2024-05-21 22:12:54.277  INFO 57191 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 8
+2024-05-21 22:12:56.605  INFO 57191 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 9
+2024-05-21 22:12:56.605  INFO 57191 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 9
+2024-05-21 22:12:58.939  INFO 57191 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f iteration: 10
+2024-05-21 22:12:58.939  INFO 57191 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f iteration: 10
+2024-05-21 22:12:58.946  INFO 57191 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f completed the total iterations
+2024-05-21 22:12:58.946  INFO 57191 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f completed the total iterations
+2024-05-21 22:12:59.649  INFO 57191 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 0d02f8cb-1791-11ef-9c36-e2dd67a4198f
+2024-05-21 22:12:59.649  INFO 57191 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 0d0590dd-1791-11ef-9c36-e2dd67a4198f
