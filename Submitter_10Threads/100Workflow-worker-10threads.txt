@@ -1,0 +1,1000 @@
+Start: 2024-05-29 16:58:00.223 
+End: 2024-05-29 16:59:42.606
+
+Total: 1 mins  42 seconds.  
+
+
+Expectation: 
+
+100 workflow
+4 seconds for each workflow
+
+= 400 seconds in total by one worker thread
+
+For 4 worker threads, total time: 400/4 = 100 seconds -> 1 mins 40 seconds. 
+
+
+
+
+.web.CorsEndpointProperties,org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$EnableSameManagementContextConfiguration,org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration,org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration,management.server-org.springframework.boot.actuate.autoconfigure.web.server.ManagementServerProperties,org.springframework.aop.config.internalAutoProxyCreator]; root of factory hierarchy
+2024-05-29 16:48:00.419 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invoking destroy() on bean with name 'tomcatMetricsBinder'
+2024-05-29 16:48:00.420 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'applicationAvailability': [livenessStateHealthIndicator, readinessStateHealthIndicator]
+2024-05-29 16:48:00.420 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'livenessStateHealthIndicator': [reactiveHealthContributorRegistry]
+2024-05-29 16:48:00.420 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'mvcResourceUrlProvider': [requestMappingHandlerMapping, welcomePageHandlerMapping, viewControllerHandlerMapping, beanNameHandlerMapping, routerFunctionMapping, resourceHandlerMapping]
+2024-05-29 16:48:00.420 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invoking destroy() on bean with name 'applicationTaskExecutor'
+2024-05-29 16:48:00.420 DEBUG 1 --- [ionShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-29 16:48:00.421 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invoking destroy() on bean with name 'characterEncodingFilter'
+2024-05-29 16:48:00.421 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invoking destroy() on bean with name 'formContentFilter'
+2024-05-29 16:48:00.421 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invoking destroy() on bean with name 'requestContextFilter'
+2024-05-29 16:48:00.421 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'simpleMeterRegistry': [webMvcMetricsFilter, metricsWebMvcConfigurer, metricsRestTemplateCustomizer]
+2024-05-29 16:48:00.421 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'metricsWebMvcConfigurer': [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration]
+2024-05-29 16:48:00.421 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': [requestMappingHandlerAdapter, mvcContentNegotiationManager, mvcConversionService, mvcValidator, localeResolver, themeResolver, flashMapManager, mvcPatternParser, mvcUrlPathHelper, mvcPathMatcher, defaultServletHandlerMapping, handlerFunctionAdapter, mvcUriComponentsContributor, httpRequestHandlerAdapter, simpleControllerHandlerAdapter, handlerExceptionResolver, mvcViewResolver, viewNameTranslator]
+2024-05-29 16:48:00.421 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'requestMappingHandlerAdapter': [mvcUriComponentsContributor]
+2024-05-29 16:48:00.421 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'mvcContentNegotiationManager': [handlerExceptionResolver, mvcViewResolver]
+2024-05-29 16:48:00.422 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invoking custom destroy method 'close' on bean with name 'simpleMeterRegistry'
+2024-05-29 16:48:00.422 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invoking close() on bean with name 'log4j2Metrics'
+2024-05-29 16:48:00.424 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invoking close() on bean with name 'jvmGcMetrics'
+2024-05-29 16:48:00.424 TRACE 1 --- [ionShutdownHook] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]
+rpc error: code = NotFound desc = an error occurred when try to find container "fa7e322de87b265232bebad4cb94d0ef9c1db0248dcd3b7f322b66d765c99bbd": not found➤➤ workplace (master) $ 
+➤➤ workplace (master) $ 
+➤➤ workplace (master) $ 
+➤➤ workplace (master) $ clear
+
+➤➤ workplace (master) $ 
+➤➤ workplace (master) $ 
+➤➤ workplace (master) $ 
+➤➤ workplace (master) $ 
+➤➤ workplace (master) $ kg po -n conductor
+NAME                                         READY   STATUS    RESTARTS   AGE
+conductordemo-5697b56749-bpfrf               1/1     Running   0          41s
+conductorworkerdemo-545659dfff-5j585         1/1     Running   0          34s
+orkes-conductor-standalone-7dbc78cbd-9jvp8   1/1     Running   0          2d14h
+➤➤ workplace (master) $ k logs -f conductorworkerdemo-545659dfff-5j585  -n conductor
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2024-05-29 16:48:11.335  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Starting ConductorWorkerDemoApplication using Java 11.0.23 on conductorworkerdemo-545659dfff-5j585 with PID 1 (/app.jar started by root in /)
+2024-05-29 16:48:11.342  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-29 16:48:13.846  INFO 1 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2024-05-29 16:48:13.911  INFO 1 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-05-29 16:48:13.911  INFO 1 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-05-29 16:48:14.041  INFO 1 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-05-29 16:48:14.041  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2602 ms
+2024-05-29 16:48:14.137  WARN 1 --- [           main] i.m.c.i.b.j.JvmGcMetrics                 : GC notifications will not be available because com.sun.management.GarbageCollectionNotificationInfo is not present
+2024-05-29 16:48:14.903  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Conductor Server URL: http://172.20.71.106:8080/api
+2024-05-29 16:48:14.925  INFO 1 --- [           main] i.o.c.c.ApiClient                        : Setting token refresh interval to 2700 seconds
+2024-05-29 16:48:15.015  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Starting workers : [com.sriramrp.conductorWorkerDemo.worker.PushEventIntoKafkaWorkerImpl@7dc51783, com.sriramrp.conductorWorkerDemo.worker.UpdateDb2WorkerImpl@4b61d0c6, com.sriramrp.conductorWorkerDemo.worker.UpdateDb1WorkerImpl@6f815e7f, com.sriramrp.conductorWorkerDemo.worker.ValidateAccountWorkerImpl@65e7f52a]
+2024-05-29 16:48:15.017  INFO 1 --- [pool-3-thread-1] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-29 16:48:15.017  INFO 1 --- [pool-3-thread-2] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-29 16:48:15.018  INFO 1 --- [pool-3-thread-3] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-29 16:48:15.018  INFO 1 --- [pool-3-thread-4] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-29 16:48:15.112  WARN 1 --- [pool-3-thread-1] c.n.c.s.URLConfigurationSource           : No URLs will be polled as dynamic configuration sources.
+2024-05-29 16:48:15.112  INFO 1 --- [pool-3-thread-1] c.n.c.s.URLConfigurationSource           : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-29 16:48:15.117  INFO 1 --- [pool-3-thread-1] c.n.c.DynamicPropertyFactory             : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7c1b2dab
+2024-05-29 16:48:15.128  INFO 1 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType PUSH_EVENT_INTO_KAFKA
+2024-05-29 16:48:15.200  INFO 1 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType UPDATE_DB_1
+2024-05-29 16:48:15.200  INFO 1 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType UPDATE_DB_2
+2024-05-29 16:48:15.200  INFO 1 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType PERFORM_VALIDATIONS
+2024-05-29 16:48:15.219  INFO 1 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'PERFORM_VALIDATIONS' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-29 16:48:15.219  INFO 1 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'UPDATE_DB_2' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-29 16:48:15.219  INFO 1 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'PUSH_EVENT_INTO_KAFKA' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-29 16:48:15.219  INFO 1 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'UPDATE_DB_1' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-29 16:48:15.220  INFO 1 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Polling errors for taskType PERFORM_VALIDATIONS will be printed at every 100 occurance.
+2024-05-29 16:48:15.220  INFO 1 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Polling errors for taskType UPDATE_DB_2 will be printed at every 100 occurance.
+2024-05-29 16:48:15.220  INFO 1 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Polling errors for taskType PUSH_EVENT_INTO_KAFKA will be printed at every 100 occurance.
+2024-05-29 16:48:15.220  INFO 1 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Polling errors for taskType UPDATE_DB_1 will be printed at every 100 occurance.
+2024-05-29 16:48:15.918 DEBUG 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-29 16:48:16.110 DEBUG 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-05-29 16:48:16.204 DEBUG 1 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-29 16:48:16.212 DEBUG 1 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-29 16:48:16.607  INFO 1 --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-29 16:48:16.642  INFO 1 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-29 16:48:16.711  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Started ConductorWorkerDemoApplication in 6.561 seconds (JVM running for 8.396)
+2024-05-29 16:48:17.803  INFO 1 --- [nio-8081-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 16:48:17.804  INFO 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-05-29 16:48:17.804 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2024-05-29 16:48:17.804 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2024-05-29 16:48:17.804 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2024-05-29 16:48:17.805 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4592c4c9
+2024-05-29 16:48:17.805 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@12904db5
+2024-05-29 16:48:17.805 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-29 16:48:17.805  INFO 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-05-29 16:48:17.814 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : GET "/actuator/health", parameters={}
+2024-05-29 16:48:17.844 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2024-05-29 16:48:17.909 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [org.springframework.boot.actuate.health.SystemHealth@783c2bd4]
+2024-05-29 16:48:17.922 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+^C
+➤➤ workplace (master) $ kg po -n conductor
+➤➤ workplace (master) $ pwd
+/Users/srramanujam/Downloads/work/workplace
+➤➤ workplace (master) $ cd conductor/charts/
+➤➤ charts (master) $ helm upgrade conductor conductor/ -n conductor
+Error: repo conductor not found
+➤➤ charts (master) $ ls
+conductorDemo		conductorWorkerDemo
+➤➤ charts (master) $ helm upgrade conductor conductorDemo/ -n conductor
+Release "conductor" has been upgraded. Happy Helming!
+NAME: conductor
+LAST DEPLOYED: Wed May 29 22:26:21 2024
+NAMESPACE: conductor
+STATUS: deployed
+REVISION: 2
+TEST SUITE: None
+➤➤ charts (master) $ kg po -n conductor
+NAME                                         READY   STATUS    RESTARTS   AGE
+conductordemo-5697b56749-bpfrf               1/1     Running   0          8m34s
+conductordemo-79c5d4587d-k7r9t               0/1     Running   0          8s
+conductorworkerdemo-545659dfff-5j585         1/1     Running   0          8m27s
+orkes-conductor-standalone-7dbc78cbd-9jvp8   1/1     Running   0          2d14h
+➤➤ charts (master) $ kg po -n conductor
+NAME                                         READY   STATUS    RESTARTS   AGE
+conductordemo-79c5d4587d-k7r9t               1/1     Running   0          23s
+conductorworkerdemo-545659dfff-5j585         1/1     Running   0          8m42s
+orkes-conductor-standalone-7dbc78cbd-9jvp8   1/1     Running   0          2d14h
+➤➤ charts (master) $ k logs -f conductorworkerdemo-545659dfff-5j585 -n conductor
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.5.12)
+
+2024-05-29 16:48:11.335  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Starting ConductorWorkerDemoApplication using Java 11.0.23 on conductorworkerdemo-545659dfff-5j585 with PID 1 (/app.jar started by root in /)
+2024-05-29 16:48:11.342  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-29 16:48:13.846  INFO 1 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2024-05-29 16:48:13.911  INFO 1 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-05-29 16:48:13.911  INFO 1 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-05-29 16:48:14.041  INFO 1 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-05-29 16:48:14.041  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2602 ms
+2024-05-29 16:48:14.137  WARN 1 --- [           main] i.m.c.i.b.j.JvmGcMetrics                 : GC notifications will not be available because com.sun.management.GarbageCollectionNotificationInfo is not present
+2024-05-29 16:48:14.903  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Conductor Server URL: http://172.20.71.106:8080/api
+2024-05-29 16:48:14.925  INFO 1 --- [           main] i.o.c.c.ApiClient                        : Setting token refresh interval to 2700 seconds
+2024-05-29 16:48:15.015  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Starting workers : [com.sriramrp.conductorWorkerDemo.worker.PushEventIntoKafkaWorkerImpl@7dc51783, com.sriramrp.conductorWorkerDemo.worker.UpdateDb2WorkerImpl@4b61d0c6, com.sriramrp.conductorWorkerDemo.worker.UpdateDb1WorkerImpl@6f815e7f, com.sriramrp.conductorWorkerDemo.worker.ValidateAccountWorkerImpl@65e7f52a]
+2024-05-29 16:48:15.017  INFO 1 --- [pool-3-thread-1] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-29 16:48:15.017  INFO 1 --- [pool-3-thread-2] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-29 16:48:15.018  INFO 1 --- [pool-3-thread-3] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-29 16:48:15.018  INFO 1 --- [pool-3-thread-4] i.o.c.c.a.TaskRunnerConfigurer           : Domain map for tasks = {}
+2024-05-29 16:48:15.112  WARN 1 --- [pool-3-thread-1] c.n.c.s.URLConfigurationSource           : No URLs will be polled as dynamic configuration sources.
+2024-05-29 16:48:15.112  INFO 1 --- [pool-3-thread-1] c.n.c.s.URLConfigurationSource           : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-05-29 16:48:15.117  INFO 1 --- [pool-3-thread-1] c.n.c.DynamicPropertyFactory             : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7c1b2dab
+2024-05-29 16:48:15.128  INFO 1 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType PUSH_EVENT_INTO_KAFKA
+2024-05-29 16:48:15.200  INFO 1 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType UPDATE_DB_1
+2024-05-29 16:48:15.200  INFO 1 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType UPDATE_DB_2
+2024-05-29 16:48:15.200  INFO 1 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Polling errors will be sampled at every 100 error (after the first 100 errors) for taskType PERFORM_VALIDATIONS
+2024-05-29 16:48:15.219  INFO 1 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'PERFORM_VALIDATIONS' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-29 16:48:15.219  INFO 1 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'UPDATE_DB_2' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-29 16:48:15.219  INFO 1 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'PUSH_EVENT_INTO_KAFKA' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-29 16:48:15.219  INFO 1 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Starting Worker for taskType 'UPDATE_DB_1' with 4 threads, 1000 polling interval (ms) and domain null
+2024-05-29 16:48:15.220  INFO 1 --- [pool-3-thread-4] i.o.c.c.a.TaskRunner                     : Polling errors for taskType PERFORM_VALIDATIONS will be printed at every 100 occurance.
+2024-05-29 16:48:15.220  INFO 1 --- [pool-3-thread-2] i.o.c.c.a.TaskRunner                     : Polling errors for taskType UPDATE_DB_2 will be printed at every 100 occurance.
+2024-05-29 16:48:15.220  INFO 1 --- [pool-3-thread-1] i.o.c.c.a.TaskRunner                     : Polling errors for taskType PUSH_EVENT_INTO_KAFKA will be printed at every 100 occurance.
+2024-05-29 16:48:15.220  INFO 1 --- [pool-3-thread-3] i.o.c.c.a.TaskRunner                     : Polling errors for taskType UPDATE_DB_1 will be printed at every 100 occurance.
+2024-05-29 16:48:15.918 DEBUG 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-29 16:48:16.110 DEBUG 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-05-29 16:48:16.204 DEBUG 1 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-05-29 16:48:16.212 DEBUG 1 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-29 16:48:16.607  INFO 1 --- [           main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-29 16:48:16.642  INFO 1 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-29 16:48:16.711  INFO 1 --- [           main] c.s.c.ConductorWorkerDemoApplication     : Started ConductorWorkerDemoApplication in 6.561 seconds (JVM running for 8.396)
+2024-05-29 16:48:17.803  INFO 1 --- [nio-8081-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 16:48:17.804  INFO 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-05-29 16:48:17.804 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2024-05-29 16:48:17.804 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+2024-05-29 16:48:17.804 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+2024-05-29 16:48:17.805 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4592c4c9
+2024-05-29 16:48:17.805 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@12904db5
+2024-05-29 16:48:17.805 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-29 16:48:17.805  INFO 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-05-29 16:48:17.814 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : GET "/actuator/health", parameters={}
+2024-05-29 16:48:17.844 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2024-05-29 16:48:17.909 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [org.springframework.boot.actuate.health.SystemHealth@783c2bd4]
+2024-05-29 16:48:17.922 DEBUG 1 --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2024-05-29 16:58:00.223  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9a990d49-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:00.223  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9a80f163-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:00.223  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9a89cb05-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:00.223  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9a911e07-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:00.231  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:00.231  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:00.231  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:00.231  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:01.222  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9aa7b34d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:01.222  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9aa0604b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:01.222  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ab65951-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:01.222  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9aaf064f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:01.223  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:01.223  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:01.223  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:01.223  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:01.324  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9a89cb05-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:01.324  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9a80f163-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:01.324  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9a911e07-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:01.324  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9a990d49-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:02.240  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9abdac53-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:02.240  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9acc5257-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:02.240  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ad3a559-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:02.240  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ac4ff55-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:02.241  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:02.241  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:02.241  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:02.241  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:02.328  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9a80f163-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:02.328  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9a990d49-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:02.328  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9a89cb05-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:02.328  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9a911e07-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:03.245  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9aea3a9f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:03.245  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9adaf85b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:03.245  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ae2e79d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:03.245  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9af229e1-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:03.246  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:03.246  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:03.246  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:03.246  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:03.320  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9aa0604b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:03.320  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9aa7b34d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:03.320  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9aaf064f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:03.320  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ab65951-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:04.250  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b08bf27-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:04.250  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b016c25-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:04.250  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b10122d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:04.250  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9afa1923-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:04.250  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:04.251  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:04.251  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:04.251  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:04.320  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9aaf064f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:04.320  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ab65951-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:04.320  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9aa0604b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:04.320  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9aa7b34d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:05.254  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b1eb831-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:05.254  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b260b33-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:05.254  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b17652f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:05.254  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b2d5e35-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:05.255  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:05.255  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:05.255  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:05.255  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:05.324  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9acc5257-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:05.324  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9abdac53-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:05.324  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ac4ff55-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:05.324  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ad3a559-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:06.259  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b34b137-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:06.259  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b3c0439-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:06.259  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b43573b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:06.259  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b4aaa3d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:06.259  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:06.259  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:06.259  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:06.259  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:06.325  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ac4ff55-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:06.325  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ad3a559-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:06.325  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9abdac53-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:06.325  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9acc5257-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:07.263  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b60a343-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:07.263  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b689285-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:07.263  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b51fd3f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:07.263  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b595041-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:07.264  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:07.264  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:07.264  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:07.264  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:07.328  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9a89cb05-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:07.328  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9a80f163-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:07.328  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9a911e07-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:07.328  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9a990d49-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:08.267  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b867acd-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:08.267  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b77d4c9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:08.267  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b7f27cb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:08.267  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b6fe587-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:08.268  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:08.268  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:08.268  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:08.268  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:08.329  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9a80f163-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:08.329  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9a89cb05-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:08.329  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9a911e07-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:08.329  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9a990d49-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:09.025  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9a89cb05-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:09.025  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9a911e07-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:09.025  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9a990d49-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:09.025  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9a80f163-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:09.272  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ba46319-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:09.272  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b95bd11-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:09.272  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b8dcdcf-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:09.272  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9b9d1017-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:09.272  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:09.272  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:09.272  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:09.272  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:09.333  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ab65951-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:09.333  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9aaf064f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:09.333  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9aa7b34d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:09.333  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9adaf85b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:10.127  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9a89cb05-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:10.127  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9a990d49-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:10.127  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9a911e07-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:10.127  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9a80f163-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:10.276  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bb3a55d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:10.276  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9babb61b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:10.276  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bbb949f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:10.276  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bc2e7a1-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:10.276  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:10.276  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:10.276  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:10.276  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:10.333  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9aaf064f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:10.333  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9adaf85b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:10.333  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ab65951-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:10.333  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9aa7b34d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:11.129  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9aa7b34d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:11.129  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9aaf064f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:11.129  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ab65951-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:11.280  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bd8e0a7-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:11.280  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bca3aa3-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:11.280  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9be033a9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:11.280  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bd18da5-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:11.280  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:11.280  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:11.280  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:11.280  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:11.337  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9aa0604b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:11.337  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ac4ff55-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:11.337  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9acc5257-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:11.337  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ad3a559-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:12.284  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bf6c8ef-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:12.284  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9be822eb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:12.284  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bef75ed-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:12.284  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9bfeb831-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:12.284  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:12.284  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:12.284  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:12.284  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:12.337  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9aa0604b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:12.337  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ad3a559-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:12.337  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ac4ff55-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:12.337  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9acc5257-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:13.288  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c1ca079-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.288  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c154d77-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.288  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c060b33-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.288  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c0d5e35-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.289  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:13.289  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:13.289  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:13.289  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:13.332  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ab65951-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.332  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9aaf064f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.332  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9aa7b34d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.335  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9acc5257-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.335  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ad3a559-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.335  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ac4ff55-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.335  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9aa0604b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:13.340  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9abdac53-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:13.340  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9adaf85b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:13.340  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9af229e1-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:13.340  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ae2e79d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:14.292  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c2b467d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:14.292  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c39ec85-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:14.292  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c32997f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:14.292  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c23f37b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:14.293  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:14.293  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:14.293  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:14.293  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:14.340  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ae2e79d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:14.340  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9abdac53-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:14.340  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9af229e1-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:14.340  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9adaf85b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:14.438  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9acc5257-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:14.438  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ad3a559-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:14.438  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9aa0604b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:14.438  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ac4ff55-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:15.296  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c49cb0d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:15.296  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c41dbcb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:15.296  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c511e0f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:15.296  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c587111-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:15.297  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:15.297  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:15.297  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:15.297  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:15.344  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9aea3a9f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:15.344  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b10122d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:15.344  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b08bf27-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:15.344  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9afa1923-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:15.439  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9adaf85b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:15.439  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9abdac53-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:16.300  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c671715-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:16.300  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c75bd19-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:16.300  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c6e6a17-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:16.300  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c5fc413-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:16.301  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:16.301  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:16.301  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:16.301  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:16.344  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9afa1923-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:16.344  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9aea3a9f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:16.344  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b10122d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:16.344  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b08bf27-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:17.304  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c84631d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:17.304  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c7d101b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:17.304  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c93a561-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:17.304  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c8bb61f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:17.305  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:17.305  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:17.305  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:17.305  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:17.348  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b016c25-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:17.348  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b1eb831-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:17.348  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b17652f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:17.348  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b260b33-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:17.643  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9adaf85b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:17.643  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9abdac53-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:18.308  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9cb18da9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:18.308  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ca99e67-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:18.308  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ca24b65-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:18.308  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9c9af863-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:18.309  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:18.309  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:18.309  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:18.309  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:18.348  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b17652f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:18.348  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b1eb831-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:18.348  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b016c25-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:18.348  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b260b33-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:19.313  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9cc0cfed-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:19.313  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9cb97ceb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:19.313  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9cc822ef-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:19.313  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ccf75f5-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:19.313  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:19.313  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:19.313  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:19.313  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:19.352  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b43573b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:19.352  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b4aaa3d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:19.352  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b2d5e35-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:19.352  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b3c0439-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:20.316  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9cd6c8f7-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:20.316  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ce60b3b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:20.316  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9ced5e3d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:20.316  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9cdeb839-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:20.317  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:20.317  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:20.317  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:20.317  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:20.352  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b43573b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:20.352  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b2d5e35-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:20.352  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b4aaa3d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:20.352  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b3c0439-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:21.320  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d0aaa45-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:21.320  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d035743-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:21.320  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9cf4b13f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:21.320  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9cfc0441-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:21.321  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:21.321  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:21.321  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:21.321  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:21.356  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b689285-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:21.356  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b60a343-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:21.356  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b34b137-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:21.356  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b595041-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:22.324  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d11fd47-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:22.324  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d27f64d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:22.324  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d195049-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:22.324  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d20a34b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:22.324  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:22.324  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:22.324  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:22.324  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:22.356  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b34b137-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:22.356  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b595041-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:22.356  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b689285-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:22.356  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b60a343-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:23.328  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d373891-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:23.328  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d471715-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:23.328  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d3f27d3-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:23.328  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d2fe58f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:23.328  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:23.328  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:23.328  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:23.328  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:23.359  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b51fd3f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:23.359  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9af229e1-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:23.359  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b6fe587-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:23.359  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ae2e79d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:24.332  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d55bd19-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:24.332  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d64631d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:24.332  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d4e6a17-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:24.332  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Inside task  PERFORM_VALIDATIONS for the workflow: 9d5d101b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:24.332  INFO 1 --- [rkflow-worker-3] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:24.332  INFO 1 --- [rkflow-worker-2] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:24.332  INFO 1 --- [rkflow-worker-4] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:24.332  INFO 1 --- [rkflow-worker-1] c.s.c.w.ValidateAccountWorkerImpl        : Account status is : VALID
+2024-05-29 16:58:24.360  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b6fe587-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:24.360  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b51fd3f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:24.360  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9af229e1-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:24.360  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ae2e79d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:25.364  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9aea3a9f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:25.364  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b08bf27-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:25.364  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9afa1923-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:25.364  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b10122d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:25.456  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9af229e1-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:25.456  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ae2e79d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:26.364  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9afa1923-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:26.364  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b08bf27-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:26.364  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9aea3a9f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:26.364  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b10122d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:26.561  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9afa1923-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:26.561  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b08bf27-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:26.561  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9aea3a9f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:26.561  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b10122d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:27.368  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b1eb831-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:27.368  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b016c25-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:27.368  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b17652f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:27.368  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b260b33-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:27.659  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ae2e79d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:27.659  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9af229e1-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:27.662  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b10122d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:27.662  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9aea3a9f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:28.368  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b016c25-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:28.368  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b17652f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:28.368  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b1eb831-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:28.368  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b260b33-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:28.565  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b17652f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:28.565  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b1eb831-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:28.565  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b016c25-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:28.565  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b260b33-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:29.372  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b4aaa3d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:29.372  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b3c0439-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:29.372  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b43573b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:29.372  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b2d5e35-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:29.666  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b1eb831-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:29.666  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9afa1923-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:29.666  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b260b33-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:29.666  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b08bf27-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:30.372  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b3c0439-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:30.372  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b2d5e35-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:30.372  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b4aaa3d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:30.372  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b43573b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:30.569  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b2d5e35-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:30.569  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b3c0439-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:30.569  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b4aaa3d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:30.569  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b43573b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:31.376  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b60a343-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:31.376  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b34b137-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:31.376  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b595041-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:31.376  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b689285-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:31.670  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b17652f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:31.670  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b016c25-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:31.670  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b3c0439-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:31.670  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b4aaa3d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:32.376  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b34b137-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:32.376  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b595041-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:32.376  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b689285-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:32.376  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b60a343-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:32.573  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b34b137-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:32.573  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b60a343-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:32.573  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b689285-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:32.573  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b595041-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:33.380  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b6fe587-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:33.380  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b51fd3f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:33.380  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b867acd-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:33.380  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b77d4c9-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:33.674  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b689285-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:33.674  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b595041-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:33.674  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b43573b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:33.674  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b2d5e35-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:34.380  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b51fd3f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:34.380  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b6fe587-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:34.380  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b77d4c9-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:34.380  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b867acd-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:34.676  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b6fe587-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:34.676  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b51fd3f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:35.384  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b7f27cb-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:35.384  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b9d1017-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:35.384  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ba46319-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:35.384  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b8dcdcf-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:35.777  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b60a343-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:35.777  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b34b137-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:35.780  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b51fd3f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:35.780  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b6fe587-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:36.384  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ba46319-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:36.384  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b9d1017-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:36.384  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b8dcdcf-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:36.384  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b7f27cb-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:37.388  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9b95bd11-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:37.388  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9babb61b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:37.388  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bbb949f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:37.388  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bb3a55d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:38.388  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b95bd11-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:38.388  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bbb949f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:38.388  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bb3a55d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:38.388  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9babb61b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:39.392  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bca3aa3-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:39.392  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9be033a9-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:39.392  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bc2e7a1-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:39.392  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bd8e0a7-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:40.392  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9be033a9-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:40.392  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bd8e0a7-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:40.392  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bc2e7a1-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:40.392  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bca3aa3-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:41.396  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bef75ed-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:41.396  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bd18da5-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:41.396  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bf6c8ef-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:41.396  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9bfeb831-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:42.396  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bf6c8ef-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:42.396  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bfeb831-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:42.396  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bef75ed-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:42.396  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bd18da5-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:43.400  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c060b33-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:43.400  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9be822eb-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:43.400  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b77d4c9-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:43.400  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c0d5e35-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:44.400  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c060b33-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:44.400  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b77d4c9-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:44.400  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9be822eb-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:44.400  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c0d5e35-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:44.693  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b77d4c9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:45.404  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b7f27cb-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:45.404  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b9d1017-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:45.404  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b8dcdcf-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:45.404  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b867acd-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:46.404  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b8dcdcf-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:46.404  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b7f27cb-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:46.404  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b9d1017-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:46.404  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b867acd-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:46.697  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b77d4c9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:46.900  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b8dcdcf-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:46.900  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b9d1017-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:46.900  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b867acd-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:46.900  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b7f27cb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:47.408  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ba46319-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:47.408  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bb3a55d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:47.408  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bbb949f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:47.408  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9babb61b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:48.408  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bb3a55d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:48.408  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ba46319-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:48.408  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bbb949f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:48.408  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9babb61b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:48.904  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bbb949f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:48.904  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ba46319-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:48.904  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b9d1017-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:48.904  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b8dcdcf-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:48.904  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b867acd-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:48.904  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9babb61b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:48.904  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bb3a55d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:48.904  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b7f27cb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:49.413  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bc2e7a1-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:49.413  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9b95bd11-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:49.413  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9be033a9-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:49.413  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bd8e0a7-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:50.413  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bc2e7a1-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:50.413  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bd8e0a7-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:50.413  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9b95bd11-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:50.413  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9be033a9-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:50.908  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bb3a55d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:50.908  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ba46319-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:50.908  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9babb61b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:50.908  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bbb949f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:50.908  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bc2e7a1-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:50.908  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9b95bd11-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:50.908  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9be033a9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:50.908  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bd8e0a7-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:51.417  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bef75ed-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:51.417  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bca3aa3-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:51.417  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bf6c8ef-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:51.417  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bfeb831-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:52.417  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bef75ed-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:52.417  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bfeb831-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:52.417  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bf6c8ef-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:52.417  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bca3aa3-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:52.913  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9b95bd11-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:52.913  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bd8e0a7-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:52.913  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9be033a9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:52.913  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bf6c8ef-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:52.913  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bfeb831-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:52.913  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bc2e7a1-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:52.913  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bca3aa3-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:52.913  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bef75ed-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:53.421  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c060b33-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:53.421  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9bd18da5-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:53.421  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9be822eb-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:53.421  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c0d5e35-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:54.421  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c060b33-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:54.421  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c0d5e35-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:54.421  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9be822eb-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:54.421  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9bd18da5-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:54.917  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bca3aa3-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:54.917  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c060b33-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:54.917  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bef75ed-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:54.917  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9bd18da5-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:54.917  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9be822eb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:54.917  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bfeb831-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:54.917  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c0d5e35-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:54.917  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bf6c8ef-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:55.425  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c1ca079-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:55.425  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c32997f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:55.425  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c154d77-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:55.425  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c2b467d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:56.425  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c32997f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:56.425  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c154d77-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:56.425  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c2b467d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:56.425  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c1ca079-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:56.921  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9be822eb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:56.921  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c0d5e35-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:56.921  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9bd18da5-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:56.921  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c060b33-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:58:57.429  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c39ec85-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:57.429  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c511e0f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:57.429  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c41dbcb-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:57.429  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c23f37b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:58.429  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c39ec85-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:58.429  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c511e0f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:58.429  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c23f37b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:58.429  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c41dbcb-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:58:59.433  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c75bd19-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:59.433  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c5fc413-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:59.433  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c587111-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:58:59.433  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c49cb0d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:00.433  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c587111-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:00.433  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c75bd19-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:00.433  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c49cb0d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:00.433  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c5fc413-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:01.437  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c6e6a17-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:01.437  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c93a561-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:01.437  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c8bb61f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:01.437  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c671715-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:02.437  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c6e6a17-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:02.437  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c93a561-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:02.437  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c671715-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:02.437  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c8bb61f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:03.441  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c9af863-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:03.441  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ca24b65-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:03.441  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c7d101b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:03.441  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9c84631d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:04.441  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c9af863-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:04.441  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ca24b65-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:04.441  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c7d101b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:04.441  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c84631d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:05.445  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c154d77-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:05.445  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c1ca079-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:05.445  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c2b467d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:05.445  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c32997f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:06.445  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c154d77-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:06.445  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c32997f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:06.445  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c2b467d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:06.445  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c1ca079-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:06.835  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c2b467d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:06.835  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c154d77-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:06.835  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c1ca079-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:06.835  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c32997f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:07.449  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c511e0f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:07.449  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c39ec85-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:07.449  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c41dbcb-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:07.449  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c23f37b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:08.449  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c41dbcb-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:08.449  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c511e0f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:08.449  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c39ec85-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:08.449  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c23f37b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:08.839  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c39ec85-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:08.839  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c511e0f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:08.839  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c32997f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:08.839  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c2b467d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:08.839  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c1ca079-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:08.839  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c23f37b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:08.839  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c41dbcb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:08.839  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c154d77-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:09.453  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c5fc413-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:09.453  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c49cb0d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:09.453  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c75bd19-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:09.453  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c587111-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:10.453  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c587111-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:10.453  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c5fc413-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:10.453  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c49cb0d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:10.453  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c75bd19-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:10.843  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c41dbcb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:10.843  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c587111-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:10.843  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c5fc413-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:10.843  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c49cb0d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:10.843  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c511e0f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:10.843  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c39ec85-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:10.843  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c23f37b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:10.843  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c75bd19-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:11.456  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c6e6a17-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:11.456  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c8bb61f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:11.456  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c671715-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:11.456  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c93a561-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:12.456  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c671715-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:12.456  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c6e6a17-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:12.456  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c93a561-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:12.456  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c8bb61f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:12.847  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c49cb0d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:12.847  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c75bd19-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:12.847  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c671715-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:12.847  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c587111-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:12.847  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c6e6a17-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:12.847  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c93a561-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:12.847  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c5fc413-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:12.847  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c8bb61f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:13.460  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c84631d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:13.460  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c7d101b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:13.460  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9c9af863-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:13.460  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ca24b65-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:14.460  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c9af863-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:14.460  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ca24b65-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:14.460  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c7d101b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:14.460  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9c84631d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:14.851  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c93a561-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:14.851  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c84631d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:14.851  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c8bb61f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:14.851  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ca24b65-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:14.851  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c9af863-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:14.851  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c671715-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:14.851  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c6e6a17-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:14.851  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9c7d101b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:15.464  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ca99e67-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:15.464  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9cb18da9-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:15.464  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9cc0cfed-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:15.464  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9cb97ceb-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:16.464  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cb97ceb-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:16.464  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cb18da9-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:16.464  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cc0cfed-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:16.464  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ca99e67-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:16.855  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ca24b65-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:16.855  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c9af863-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:16.855  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c84631d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:16.855  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9c7d101b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:17.468  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ccf75f5-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:17.468  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ce60b3b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:17.468  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9ced5e3d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:17.468  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9cc822ef-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:18.468  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ccf75f5-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:18.468  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ce60b3b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:18.468  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cc822ef-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:18.468  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ced5e3d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:19.472  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d0aaa45-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:19.472  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9cdeb839-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:19.472  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d035743-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:19.472  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9cd6c8f7-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:20.472  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cdeb839-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:20.472  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d035743-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:20.472  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cd6c8f7-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:20.472  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d0aaa45-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:21.476  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9cf4b13f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:21.476  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9cfc0441-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:21.476  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d20a34b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:21.476  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d195049-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:22.476  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cfc0441-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:22.476  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cf4b13f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:22.476  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d20a34b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:22.476  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d195049-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:23.480  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d2fe58f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:23.480  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d27f64d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:23.480  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d11fd47-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:23.480  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d3f27d3-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:24.480  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d2fe58f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:24.480  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d11fd47-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:24.480  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d3f27d3-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:24.480  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d27f64d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:25.484  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d373891-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:25.484  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ca99e67-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:25.484  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9cc0cfed-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:25.484  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9cb97ceb-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:26.484  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cc0cfed-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:26.484  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ca99e67-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:26.484  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d373891-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:26.484  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cb97ceb-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:26.869  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9cc0cfed-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:26.869  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ca99e67-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:26.869  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9cb97ceb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:27.488  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9cc822ef-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:27.488  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9cb18da9-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:27.488  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ced5e3d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:27.488  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ce60b3b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:28.488  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ced5e3d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:28.488  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ce60b3b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:28.488  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cc822ef-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:28.488  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cb18da9-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:28.873  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9cb97ceb-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:28.873  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ca99e67-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:28.873  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9cc0cfed-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:29.076  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ce60b3b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:29.076  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ced5e3d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:29.076  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9cb18da9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:29.076  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9cc822ef-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:29.492  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d0aaa45-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:29.492  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9cd6c8f7-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:29.492  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9cdeb839-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:29.492  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9ccf75f5-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:30.492  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d0aaa45-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:30.492  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cd6c8f7-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:30.492  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9ccf75f5-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:30.492  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cdeb839-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:31.080  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ce60b3b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:31.080  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9cc822ef-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:31.080  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9cd6c8f7-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:31.080  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9cdeb839-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:31.080  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d0aaa45-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:31.080  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9ccf75f5-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:31.080  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ced5e3d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:31.080  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9cb18da9-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:31.496  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d035743-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:31.496  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d195049-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:31.496  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9cf4b13f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:31.496  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d20a34b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:32.496  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d195049-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:32.496  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d20a34b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:32.496  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cf4b13f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:32.496  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d035743-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:33.084  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d20a34b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:33.084  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9cd6c8f7-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:33.084  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9cdeb839-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:33.084  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d195049-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:33.084  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9cf4b13f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:33.084  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d035743-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:33.084  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9ccf75f5-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:33.084  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d0aaa45-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:33.500  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d11fd47-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:33.500  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d3f27d3-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:33.500  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d2fe58f-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:33.500  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9cfc0441-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:34.500  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d2fe58f-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:34.500  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d11fd47-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:34.500  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d3f27d3-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:34.500  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9cfc0441-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:35.088  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d195049-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:35.088  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d2fe58f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:35.088  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d035743-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:35.088  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d11fd47-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:35.088  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d20a34b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:35.088  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9cfc0441-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:35.088  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d3f27d3-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:35.088  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9cf4b13f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:35.505  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d5d101b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:35.505  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d27f64d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:35.505  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d471715-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:35.505  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d373891-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:36.505  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d5d101b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:36.505  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d471715-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:36.505  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d27f64d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:36.505  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d373891-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:37.092  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d2fe58f-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:37.092  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9cfc0441-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:37.092  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d11fd47-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:37.092  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d3f27d3-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:37.191  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d27f64d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:37.191  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d373891-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:37.508  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d64631d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:37.508  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d55bd19-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:37.508  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-0 for the workflow: 9d4e6a17-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:37.508  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d5d101b-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:38.509  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d64631d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:38.509  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d55bd19-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:38.509  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d4e6a17-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:38.509  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d5d101b-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:39.195  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d27f64d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:39.195  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d373891-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:39.497  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d5d101b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:39.512  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d55bd19-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:39.512  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d64631d-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:39.512  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d471715-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:39.512  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Inside task  UPDATE_DB_ONE-1 for the workflow: 9d4e6a17-1ddc-11ef-9c85-66ba1a8364ee iteration: 0
+2024-05-29 16:59:40.512  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d64631d-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:40.512  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d55bd19-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:40.512  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d4e6a17-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:40.512  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 9d471715-1ddc-11ef-9c85-66ba1a8364ee completed the total iterations
+2024-05-29 16:59:40.602  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d471715-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:40.602  INFO 1 --- [rkflow-worker-3] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d4e6a17-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:40.602  INFO 1 --- [rkflow-worker-4] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d55bd19-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:40.602  INFO 1 --- [rkflow-worker-1] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 9d64631d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:41.501  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d5d101b-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:42.605  INFO 1 --- [rkflow-worker-2] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d471715-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:42.606  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d55bd19-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:42.606  INFO 1 --- [rkflow-worker-1] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d64631d-1ddc-11ef-9c85-66ba1a8364ee
+2024-05-29 16:59:42.606  INFO 1 --- [rkflow-worker-4] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 9d4e6a17-1ddc-11ef-9c85-66ba1a8364ee
+

@@ -1,0 +1,37 @@
+
+
+
+
+Start: Thu, 30 May 2024 20:39:48 +0530
+End: 2024-05-30 21:47:50.112 
+
+Total time: 1 hour 9 mins. 
+
+Expectation: 
+
+
+100000 jobs with 4 sec completion
+
+= 100000 * 4 = 400000 for 1 worker 1 thread
+
+for 5 workers and 20 threads = 4000 seconds -> 66.667 mins -> 1.111 hours -> 1 hour 6 mins. 
+
+
+
+
+Ending:
+
+2024-05-30 16:17:50.112  INFO 1 --- [rkflow-worker-2] c.s.c.w.UpdateDb1WorkerImpl              : Task  UPDATE_DB_1 for the workflow: 5a22432c-1e95-11ef-b997-52157696153c completed the total iterations
+2024-05-30 16:17:49.908  INFO 1 --- [rkflow-worker-6] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 5a0e1e63-1e95-11ef-b997-52157696153c
+2024-05-30 16:17:51.807  INFO 1 --- [rkflow-worker-3] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 5a2417fb-1e95-11ef-b997-52157696153c
+2024-05-30 16:17:50.588  INFO 1 --- [kflow-worker-17] c.s.c.w.PushEventIntoKafkaWorkerImpl     : Inside task  PUSH_EVENT_INTO_KAFKA for the workflow: 5a19423c-1e95-11ef-b997-52157696153c
+2024-05-30 16:17:50.651  INFO 1 --- [rkflow-worker-7] c.s.c.w.UpdateDb2WorkerImpl              : Inside task  UPDATE_DB_2 for the workflow: 5a26fe3f-1e95-11ef-b997-52157696153c
+
+
+
+conductorworkerdemo-7c84b88c5d-8hcm9         1/1     Running   0          74m
+conductorworkerdemo-7c84b88c5d-c5h7c         1/1     Running   0          74m
+conductorworkerdemo-7c84b88c5d-pm2qb         1/1     Running   0          51m
+conductorworkerdemo-7c84b88c5d-qq9sz         1/1     Running   0          74m
+conductorworkerdemo-7c84b88c5d-wp5dw         1/1     Running   0          74m
+orkes-conductor-standalone-7dbc78cbd-ktl87   1/1     Running   0          88m
